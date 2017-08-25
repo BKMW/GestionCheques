@@ -1,0 +1,38 @@
+
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+}
+ .cheque {
+    display: block;
+    font-size: 12pt;
+}
+.cheque >.chiffre{
+text-align: right;
+padding-top: 27px;
+padding-right: 10px;
+margin-bottom: 37px;
+}
+.cheque >.lettre{
+text-align: center;
+
+}
+.cheque >.label{
+text-align: center;
+margin-bottom: 70px;
+}
+.cheque >.lieu{
+  margin-left: 300px;
+  display: inline;
+
+}
+.cheque >.date{
+  display: inline;
+  padding-left: 10px;
+
+}
+/* mode print */
+
+body {background:white;
+
+  }
